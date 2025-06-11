@@ -1,1 +1,4 @@
 # Design-Patterns
+
+When: Use the Factory Method pattern in the burger restaurant app when you expect to add new burger types frequently (e.g., Chicken Burger, Fish Burger) or want a scalable design. It’s ideal for interactive apps where users select options, and you need flexibility to extend the menu without modifying core code.
+Why: Factory Method makes the app extensible—new burgers require only new classes, not changes to existing logic. It’s decoupled, as the client (Restaurant) works with the BurgerFactory interface, not specific factories or burgers. The interactive input creates a user-friendly experience, similar to your Recipe Recommendation Bot’s input-driven design.
